@@ -268,3 +268,83 @@ body { background:#fff  url(../image/body_bg.png) repeat-x; }
     background:#000;
     filter: opacity(80%);
  }
+
+ #main {
+    width:942px;
+    margin:32px auto;
+    border:1px solid red;
+
+ }
+
+ .clear:after {
+    content:"";
+    display:block;
+    clear:both;
+ }
+
+ .clear { zoom:1; }
+
+ #aside {
+    width: 210px;
+    float:left;
+     border:1px solid red;
+
+ }
+ #wrap {
+    width:728px;
+    float:right;
+    border:1px solid red;
+ }
+
+ #aside_list {
+    position: relative;
+    width:210px;
+    height:390px;
+    background:url(../image/aside_list_bg.png) no-repeat;
+ }
+
+ #aside_list span {
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    width:209px;
+    height:28px;
+    background:url(../image/aside_list_bg.png) 0 -392px no-repeat;
+    text-align:center;
+    font-size:15px;
+    line-height:28px;
+    font-family: Arial;
+    color:#fff;
+ }
+
+ #aside ul {
+    position:absolute;
+    top:40px;
+ }
+ #aside li {
+    width:192px;
+    height:30px;
+    font-size:12px;
+    font-weight:bold;
+    line-height:30px;
+    font-family: Arial;
+    border-bottom:1px solid #fff;
+    margin-left:8px;
+    margin-right:8px;
+
+ }
+
+#aside li a { 
+    color:#434343;
+    margin-left:40px; 
+ }
+
+#aside li a:hover { 
+    color:#b20e00; 
+    text-decoration:none; 
+ }
+
+ #aside_join {}
+ #aside_logo {}
+
