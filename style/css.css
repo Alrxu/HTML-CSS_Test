@@ -287,7 +287,7 @@ body { background:#fff  url(../image/body_bg.png) repeat-x; }
  #aside {
     width: 210px;
     float:left;
-     border:1px solid red;
+    border:1px solid red;
 
  }
  #wrap {
@@ -345,6 +345,44 @@ body { background:#fff  url(../image/body_bg.png) repeat-x; }
     text-decoration:none; 
  }
 
- #aside_join {}
+ #aside_join {
+    width:210px;
+    height:330px;
+    background:url(../image/aside_join_ico.png) no-repeat;
+    margin-top:13px;
+    padding-top:10px;
+ }
+
+ #aside_join p {
+    width:180px;
+    height:32px;
+    margin-left:14px;
+    margin-bottom:14px;
+    text-align:center;
+    font-size:15px;
+    font-weight:bold;
+    line-height: 18px;
+    font-family: Arial;
+    color:#666;
+  
+ }
+
+ #aside_join form {}
+ #aside_join .join_txt {
+    border:none;
+    border-left:1px solid #c0c0c0;
+    border-top:1px solid #9c9c9c;
+ }
+ #aside_join .join_btn {
+    border:none;
+ }
+ #aside_join ul {}
+ #aside_join li {}
+ #aside_join a {}
+ #aside_join a:hover {}
+
+
+
  #aside_logo {}
+
 
